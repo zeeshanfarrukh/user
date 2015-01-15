@@ -21,10 +21,10 @@ class Gethours {
         
       /** Set access tokens here - see: https://dev.twitter.com/apps/ **/
 $settings = array(
-'oauth_access_token' => "2981876900-gpJhV5uC0QN7cbJ1Smm3jyRZBcU6ZDurtbWKrS5",
-'oauth_access_token_secret' => "xs2aOKlVpsQMQpBhiLrqxRpXNOxvqSU9uKFYx4yM41afa",
-'consumer_key' => "7HXloiAbZSS5Th45NBiP9ABJj",
-'consumer_secret' => "o4ZhAR05nwcUgbKduAhmYZVBIfMvjxx6yNzRVfFsgFFEkGFF1V"
+'oauth_access_token' => "",
+'oauth_access_token_secret' => "",
+'consumer_key' => "",
+'consumer_secret' => ""
 );
 $url = "https://api.twitter.com/1.1/statuses/user_timeline.json";
 $requestMethod = "GET";
