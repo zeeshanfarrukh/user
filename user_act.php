@@ -3,7 +3,7 @@ include 'Gethours.php';
 //
 $value= Gethours::gettweets();
 //
-//print_r($value);
+//print_r($value['mcnt']);
 
 
 
@@ -66,7 +66,7 @@ if (!isset($_POST['h_width']))
 	
 	
 	
-    $H = new Histogram($value);
+    $H = new Histogram($value['mcnt']);
     $H->width = $h_width;                        // 150 par d�faut
     $H->height = $h_height;                      // 150 par d�faut
     $H->bgcolor = "#EFFFDD";                     // #FFFFFF par d�faut
