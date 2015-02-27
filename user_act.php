@@ -3,10 +3,7 @@ include 'Gethours.php';
 //
 $value= Gethours::gettweets();
 //
-//print_r($value['mcnt']);
-
-
-
+krsort($value['mcnt']);
 
 
 if (isset($_GET['vs']))
